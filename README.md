@@ -48,13 +48,7 @@
 </code>
 
 - [nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049](https://github.com/nidhihcl75/frameworks_av_AOSP10_r33_CVE-2024-0049)
-
-### CVE-2024-0056 (2024-01-09)
-
-<code>Microsoft.Data.SqlClient and System.Data.SqlClient SQL Data Provider Security Feature Bypass Vulnerability
-</code>
-
-- [frederickernest/ManInTheMiddle](https://github.com/frederickernest/ManInTheMiddle)
+- [uthrasri/frameworks_av_CVE-2024-0049](https://github.com/uthrasri/frameworks_av_CVE-2024-0049)
 
 ### CVE-2024-0195 (2024-01-02)
 
@@ -747,14 +741,6 @@
 
 - [Abo5/CVE-2024-4484](https://github.com/Abo5/CVE-2024-4484)
 
-### CVE-2024-4514 (2024-05-06)
-
-<code>Es wurde eine Schwachstelle in Campcodes Complete Web-Based School Management System 1.0 gefunden. Sie wurde als problematisch eingestuft. Dabei betrifft es einen unbekannter Codeteil der Datei /view/timetable_insert_form.php. Durch das Beeinflussen des Arguments grade mit unbekannten Daten kann eine cross site scripting-Schwachstelle ausgenutzt werden. Die Umsetzung des Angriffs kann dabei über das Netzwerk erfolgen. Der Exploit steht zur öffentlichen Verfügung.
-</code>
-
-- [W1hithat/CVE-2024-4514](https://github.com/W1hithat/CVE-2024-4514)
-- [AnastasiaStill/-CVE-2024-4514-](https://github.com/AnastasiaStill/-CVE-2024-4514-)
-
 ### CVE-2024-4577 (2024-06-09)
 
 <code>In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain code pages, Windows may use &quot;Best-Fit&quot; behavior to replace characters in command line given to Win32 API functions. PHP CGI module may misinterpret those characters as PHP options, which may allow a malicious user to pass options to PHP binary being run, and thus reveal the source code of scripts, run arbitrary PHP code on the server, etc.
@@ -1095,10 +1081,10 @@
 - [k4t3pr0/CVE-2024-6387-Check](https://github.com/k4t3pr0/CVE-2024-6387-Check)
 - [Jhonsonwannaa/CVE-2024-6387](https://github.com/Jhonsonwannaa/CVE-2024-6387)
 - [ThatNotEasy/CVE-2024-6387](https://github.com/ThatNotEasy/CVE-2024-6387)
-- [W1hithat/CVE-2024-6387](https://github.com/W1hithat/CVE-2024-6387)
 - [prelearn-code/CVE-2024-6387](https://github.com/prelearn-code/CVE-2024-6387)
 - [l-urk/CVE-2024-6387-L](https://github.com/l-urk/CVE-2024-6387-L)
 - [alex14324/ssh_poc2024](https://github.com/alex14324/ssh_poc2024)
+- [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 
 ### CVE-2024-6529 (2024-08-01)
 
@@ -1127,6 +1113,13 @@
 </code>
 
 - [XD3an/CVE-2024-6738](https://github.com/XD3an/CVE-2024-6738)
+
+### CVE-2024-7339 (2024-08-01)
+
+<code>In TVT DVR TD-2104TS-CL, DVR TD-2108TS-HP, Provision-ISR DVR SH-4050A5-5L(MM) and AVISION DVR AV108T wurde eine problematische Schwachstelle gefunden. Betroffen ist eine unbekannte Verarbeitung der Datei /queryDevInfo. Dank der Manipulation mit unbekannten Daten kann eine information disclosure-Schwachstelle ausgenutzt werden. Der Angriff kann über das Netzwerk passieren. Der Exploit steht zur öffentlichen Verfügung.
+</code>
+
+- [RevoltSecurities/CVE-2024-7339](https://github.com/RevoltSecurities/CVE-2024-7339)
 
 ### CVE-2024-11451
 - [Xiaolqy/CVE-2024-11451](https://github.com/Xiaolqy/CVE-2024-11451)
@@ -1828,7 +1821,7 @@
 - [mil4ne/CVE-2024-23897-Jenkins-4.441](https://github.com/mil4ne/CVE-2024-23897-Jenkins-4.441)
 - [Maalfer/CVE-2024-23897](https://github.com/Maalfer/CVE-2024-23897)
 - [Surko888/Surko-Exploit-Jenkins-CVE-2024-23897](https://github.com/Surko888/Surko-Exploit-Jenkins-CVE-2024-23897)
-- [AnastasiaStill/CVE-2024-23897](https://github.com/AnastasiaStill/CVE-2024-23897)
+- [NoSpaceAvailable/CVE-2024-23897](https://github.com/NoSpaceAvailable/CVE-2024-23897)
 
 ### CVE-2024-24034 (2024-02-08)
 
@@ -3032,6 +3025,7 @@
 <code>Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz.This issue affects Apache OFBiz: before 18.12.13.\n\nUsers are recommended to upgrade to version 18.12.13, which fixes the issue.\n\n
 </code>
 
+- [RacerZ-fighting/CVE-2024-32113-POC](https://github.com/RacerZ-fighting/CVE-2024-32113-POC)
 - [Mr-xn/CVE-2024-32113](https://github.com/Mr-xn/CVE-2024-32113)
 
 ### CVE-2024-32136 (2024-04-15)
@@ -3854,6 +3848,7 @@
 </code>
 
 - [alpernae/CVE-2024-40422](https://github.com/alpernae/CVE-2024-40422)
+- [j3r1ch0123/CVE-2024-40422](https://github.com/j3r1ch0123/CVE-2024-40422)
 
 ### CVE-2024-40492 (2024-07-17)
 
@@ -3862,7 +3857,11 @@
 
 - [minendie/POC_CVE-2024-40492](https://github.com/minendie/POC_CVE-2024-40492)
 
-### CVE-2024-40498
+### CVE-2024-40498 (2024-08-05)
+
+<code>SQL Injection vulnerability in PuneethReddyHC Online Shopping sysstem advanced v.1.0 allows an attacker to execute arbitrary code via the register.php
+</code>
+
 - [Dirac231/CVE-2024-40498](https://github.com/Dirac231/CVE-2024-40498)
 
 ### CVE-2024-40506
@@ -3942,11 +3941,15 @@
 
 - [sh3bu/CVE-2024-41662](https://github.com/sh3bu/CVE-2024-41662)
 
+### CVE-2024-41958 (2024-08-05)
+
+<code>mailcow: dockerized is an open source groupware/email suite based on docker. A vulnerability has been discovered in the two-factor authentication (2FA) mechanism. This flaw allows an authenticated attacker to bypass the 2FA protection, enabling unauthorized access to other accounts that are otherwise secured with 2FA. To exploit this vulnerability, the attacker must first have access to an account within the system and possess the credentials of the target account that has 2FA enabled. By leveraging these credentials, the attacker can circumvent the 2FA process and gain access to the protected account. This issue has been addressed in the `2024-07` release. All users are advised to upgrade. There are no known workarounds for this vulnerability.
+</code>
+
+- [OrangeJuiceHU/CVE-2024-41958-PoC](https://github.com/OrangeJuiceHU/CVE-2024-41958-PoC)
+
 ### CVE-2024-65230
 - [CBaekhyunC/cve-2024-65230](https://github.com/CBaekhyunC/cve-2024-65230)
-
-### CVE-2024-81757
-- [AnastasiaStill/CVE-2024-81757-Apache-web-server-2.4.61](https://github.com/AnastasiaStill/CVE-2024-81757-Apache-web-server-2.4.61)
 
 ### CVE-2024-206565
 - [sanderswannalive/sumkaluissessss](https://github.com/sanderswannalive/sumkaluissessss)
@@ -4856,6 +4859,7 @@
 - [E1A/CVE-2023-4596](https://github.com/E1A/CVE-2023-4596)
 - [X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version](https://github.com/X-Projetion/CVE-2023-4596-Vulnerable-Exploit-and-Checker-Version)
 - [RHYru9/CVE-2023-4596-checker](https://github.com/RHYru9/CVE-2023-4596-checker)
+- [X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker](https://github.com/X-Projetion/CVE-2023-4596-OpenSSH-Multi-Checker)
 
 ### CVE-2023-4622 (2023-09-06)
 
@@ -5366,8 +5370,8 @@
 <code>An issue has been discovered in GitLab CE/EE affecting all versions from 16.1 prior to 16.1.6, 16.2 prior to 16.2.9, 16.3 prior to 16.3.7, 16.4 prior to 16.4.5, 16.5 prior to 16.5.6, 16.6 prior to 16.6.4, and 16.7 prior to 16.7.2 in which user account password reset emails could be delivered to an unverified email address.
 </code>
 
-- [V1lu0/CVE-2023-7028](https://github.com/V1lu0/CVE-2023-7028)
 - [RandomRobbieBF/CVE-2023-7028](https://github.com/RandomRobbieBF/CVE-2023-7028)
+- [googlei1996/CVE-2023-7028](https://github.com/googlei1996/CVE-2023-7028)
 - [duy-31/CVE-2023-7028](https://github.com/duy-31/CVE-2023-7028)
 - [Vozec/CVE-2023-7028](https://github.com/Vozec/CVE-2023-7028)
 - [yoryio/CVE-2023-7028](https://github.com/yoryio/CVE-2023-7028)
@@ -20740,13 +20744,6 @@
 - [hnthuan1998/CVE-2021-24160](https://github.com/hnthuan1998/CVE-2021-24160)
 - [hnthuan1998/Exploit-CVE-2021-24160](https://github.com/hnthuan1998/Exploit-CVE-2021-24160)
 
-### CVE-2021-24307 (2021-05-24)
-
-<code>The All in One SEO – Best WordPress SEO Plugin – Easily Improve Your SEO Rankings before 4.1.0.2 enables authenticated users with &quot;aioseo_tools_settings&quot; privilege (most of the time admin) to execute arbitrary code on the underlying host. Users can restore plugin's configuration by uploading a backup .ini file in the section &quot;Tool &gt; Import/Export&quot;. However, the plugin attempts to unserialize values of the .ini file. Moreover, the plugin embeds Monolog library which can be used to craft a gadget chain and thus trigger system command execution.
-</code>
-
-- [darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce](https://github.com/darkpills/CVE-2021-24307-all-in-one-seo-pack-admin-rce)
-
 ### CVE-2021-24356 (2021-06-14)
 
 <code>In the Simple 301 Redirects by BetterLinks WordPress plugin before 2.0.4, a lack of capability checks and insufficient nonce check on the AJAX action, simple301redirects/admin/activate_plugin, made it possible for authenticated users to activate arbitrary plugins installed on vulnerable sites.
@@ -21741,13 +21738,6 @@
 
 - [jsherman212/iomfb-exploit](https://github.com/jsherman212/iomfb-exploit)
 - [30440r/gex](https://github.com/30440r/gex)
-
-### CVE-2021-30853 (2021-08-24)
-
-<code>This issue was addressed with improved checks. This issue is fixed in macOS Big Sur 11.6. A malicious application may bypass Gatekeeper checks.
-</code>
-
-- [shubham0d/CVE-2021-30853](https://github.com/shubham0d/CVE-2021-30853)
 
 ### CVE-2021-30858 (2021-08-24)
 
@@ -23412,6 +23402,14 @@
 </code>
 
 - [Jajangjaman/CVE-2021-41160](https://github.com/Jajangjaman/CVE-2021-41160)
+
+### CVE-2021-41182 (2021-10-26)
+
+<code>jQuery-UI is the official jQuery user interface library. Prior to version 1.13.0, accepting the value of the `altField` option of the Datepicker widget from untrusted sources may execute untrusted code. The issue is fixed in jQuery UI 1.13.0. Any string value passed to the `altField` option is now treated as a CSS selector. A workaround is to not accept the value of the `altField` option from untrusted sources.
+</code>
+
+- [aredspy/CVE-2021-41182](https://github.com/aredspy/CVE-2021-41182)
+- [aredspy/CVE-2021-41182-Tester](https://github.com/aredspy/CVE-2021-41182-Tester)
 
 ### CVE-2021-41184 (2021-10-26)
 
@@ -30441,6 +30439,13 @@
 - [0xAbbarhSF/CVE-2020-29607](https://github.com/0xAbbarhSF/CVE-2020-29607)
 - [0xN7y/CVE-2020-29607](https://github.com/0xN7y/CVE-2020-29607)
 
+### CVE-2020-29661 (2020-12-09)
+
+<code>A locking issue was discovered in the tty subsystem of the Linux kernel through 5.9.13. drivers/tty/tty_jobctrl.c allows a use-after-free attack against TIOCSPGRP, aka CID-54ffccbf053b.
+</code>
+
+- [wojkos9/arm-CVE-2020-29661](https://github.com/wojkos9/arm-CVE-2020-29661)
+
 ### CVE-2020-29666 (2020-12-10)
 
 <code>In Lan ATMService M3 ATM Monitoring System 6.1.0, due to a directory-listing vulnerability, a remote attacker can view log files, located in /websocket/logs/, that contain a user's cookie values and the predefined developer's cookie value.
@@ -33802,6 +33807,7 @@
 
 - [Barakat/CVE-2019-16098](https://github.com/Barakat/CVE-2019-16098)
 - [0xDivyanshu-new/CVE-2019-16098](https://github.com/0xDivyanshu-new/CVE-2019-16098)
+- [Offensive-Panda/NT-AUTHORITY-SYSTEM-CONTEXT-RTCORE](https://github.com/Offensive-Panda/NT-AUTHORITY-SYSTEM-CONTEXT-RTCORE)
 
 ### CVE-2019-16113 (2019-09-08)
 
