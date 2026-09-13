@@ -5841,7 +5841,7 @@
 
 ### CVE-2026-24332 (2026-01-22)
 
-<code>Discord through 2026-01-16 allows gathering information about whether a user's client state is Invisible (and not actually offline) because the response to a WebSocket API request includes the user in the presences array (with &quot;status&quot;: &quot;offline&quot;), whereas offline users are omitted from the presences array. This is arguably inconsistent with the UI description of Invisible as &quot;You will appear offline.&quot;
+<code>Discord through 2026-01-16 allows gathering information about whether a user's client state is Invisible (and not actually offline) because the response to a WebSocket API request includes the user in the presences array (with &quot;status&quot;: &quot;offline&quot;), whereas offline users are omitted from the presences array. This is arguably inconsistent with the UI description of Invisible as &quot;You will appear offline.&quot; NOTE: a third-party report suggests that this was remediated later in 2026.
 </code>
 
 - [WhiteTPoison100/Discord-CVE-2026-24332-demo](https://github.com/WhiteTPoison100/Discord-CVE-2026-24332-demo)
@@ -8505,6 +8505,7 @@
 - [shreyas-malhotra/CVE-2026-33439-OpenAM](https://github.com/shreyas-malhotra/CVE-2026-33439-OpenAM)
 - [Ibonok/CVE-2026-33439-PoC](https://github.com/Ibonok/CVE-2026-33439-PoC)
 - [TheMalwareGuardian/CVE-2026-33439](https://github.com/TheMalwareGuardian/CVE-2026-33439)
+- [infernosalex/CVE-2026-33439-Python-PoC](https://github.com/infernosalex/CVE-2026-33439-Python-PoC)
 
 ### CVE-2026-33453 (2026-04-27)
 
@@ -12230,7 +12231,7 @@
 </code>
 
 - [j0xh-sec/CVE-2026-49009](https://github.com/j0xh-sec/CVE-2026-49009)
-- [INTELEON404/CVE-2026-49009](https://github.com/INTELEON404/CVE-2026-49009)
+- [inteleon404/CVE-2026-49009](https://github.com/inteleon404/CVE-2026-49009)
 
 ### CVE-2026-49042 (2026-07-06)
 
@@ -15753,6 +15754,7 @@
 - [mhtsec/CVE-2026-85706](https://github.com/mhtsec/CVE-2026-85706)
 - [ynsmroztas/GitLabSniper](https://github.com/ynsmroztas/GitLabSniper)
 - [jithinkrishnanrs/gitlab-cve-2026-85706-ioc](https://github.com/jithinkrishnanrs/gitlab-cve-2026-85706-ioc)
+- [0xlyvio/cve-2026-85706-poc-exploit-gitlab](https://github.com/0xlyvio/cve-2026-85706-poc-exploit-gitlab)
 
 ### CVE-2026-85769 (2026-09-04)
 
@@ -15908,7 +15910,7 @@
 - [dodiorne/cve-2025-0133](https://github.com/dodiorne/cve-2025-0133)
 - [ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS](https://github.com/ynsmroztas/-CVE-2025-0133-GlobalProtect-XSS)
 - [wiseep/CVE-2025-0133](https://github.com/wiseep/CVE-2025-0133)
-- [INTELEON404/CVE-2025-0133](https://github.com/INTELEON404/CVE-2025-0133)
+- [inteleon404/CVE-2025-0133](https://github.com/inteleon404/CVE-2025-0133)
 - [shawarkhanethicalhacker/CVE-2025-0133-exploit](https://github.com/shawarkhanethicalhacker/CVE-2025-0133-exploit)
 - [adhamelhansye/CVE-2025-0133](https://github.com/adhamelhansye/CVE-2025-0133)
 - [cruxN3T/CVE-2025-0133](https://github.com/cruxN3T/CVE-2025-0133)
@@ -29698,6 +29700,13 @@
 </code>
 
 - [rycbar77/CVE-2024-1939](https://github.com/rycbar77/CVE-2024-1939)
+
+### CVE-2024-2044 (2024-03-07)
+
+<code>pgAdmin &lt;= 8.3 is affected by a path-traversal vulnerability while deserializing users’ sessions in the session handling code. If the server is running on Windows, an unauthenticated attacker can load and deserialize remote pickle objects and gain code execution. If the server is running on POSIX/Linux, an authenticated attacker can upload pickle objects, deserialize them, and gain code execution.
+</code>
+
+- [hanzzly/CVE-2024-2044](https://github.com/hanzzly/CVE-2024-2044)
 
 ### CVE-2024-2053 (2024-03-05)
 
@@ -66635,6 +66644,7 @@
 - [Goyotan/CVE-2020-6418-PoC](https://github.com/Goyotan/CVE-2020-6418-PoC)
 - [ulexec/ChromeSHELFLoader](https://github.com/ulexec/ChromeSHELFLoader)
 - [SivaPriyaRanganatha/CVE-2020-6418](https://github.com/SivaPriyaRanganatha/CVE-2020-6418)
+- [a-mansilla/CVE-2020-6418](https://github.com/a-mansilla/CVE-2020-6418)
 
 ### CVE-2020-6468 (2020-05-21)
 
@@ -79099,6 +79109,7 @@
 - [0xBlackash/CVE-2017-0144](https://github.com/0xBlackash/CVE-2017-0144)
 - [probablysecure/Triage-CVE-2017-0144](https://github.com/probablysecure/Triage-CVE-2017-0144)
 - [KitSkater/legacyshield-CVE-2017-0144](https://github.com/KitSkater/legacyshield-CVE-2017-0144)
+- [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
 - [quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144](https://github.com/quincyomoruyi6-lang/BLUE-WRITEUP-CVE-2017-0144)
 - [porcumarcooo/TryHackMe-Blue-MS17-010](https://github.com/porcumarcooo/TryHackMe-Blue-MS17-010)
 
@@ -85573,6 +85584,13 @@
 - [RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc](https://github.com/RobertoLeonFR-ES/Exploit-Win32.CVE-2012-0158.F.doc)
 - [Sunqiz/CVE-2012-0158-reproduction](https://github.com/Sunqiz/CVE-2012-0158-reproduction)
 
+### CVE-2012-0754 (2012-02-16)
+
+<code>Adobe Flash Player before 10.3.183.15 and 11.x before 11.1.102.62 on Windows, Mac OS X, Linux, and Solaris; before 11.1.111.6 on Android 2.x and 3.x; and before 11.1.115.6 on Android 4.x allows attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors.
+</code>
+
+- [mbeweoo/flash-exploit-defense-system](https://github.com/mbeweoo/flash-exploit-defense-system)
+
 ### CVE-2012-1495 (2020-01-27)
 
 <code>install/index.php in WebCalendar before 1.2.5 allows remote attackers to execute arbitrary code via the form_single_user_login parameter.
@@ -86019,6 +86037,7 @@
 - [aish19siddiqua-commits/mtechweek_04](https://github.com/aish19siddiqua-commits/mtechweek_04)
 - [rsakthikumar-cmd/metasploitable2-vsftpd-writeup](https://github.com/rsakthikumar-cmd/metasploitable2-vsftpd-writeup)
 - [Gvln-S/CVE-2011-2523](https://github.com/Gvln-S/CVE-2011-2523)
+- [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
 - [aboubacar70/LAB1-metasploitable](https://github.com/aboubacar70/LAB1-metasploitable)
 - [JUN41DS2709/vsFTPd-2.3.4-Exploit](https://github.com/JUN41DS2709/vsFTPd-2.3.4-Exploit)
 - [samirchapagain/metasploit-lab-report](https://github.com/samirchapagain/metasploit-lab-report)
@@ -86869,6 +86888,7 @@
 - [DesmondHinds94/S22_The_Verification_Protocol](https://github.com/DesmondHinds94/S22_The_Verification_Protocol)
 - [EthicalHackingLabs/metasploitable2-exploitation-metasploit](https://github.com/EthicalHackingLabs/metasploitable2-exploitation-metasploit)
 - [Mboatella25/metasploitable-pentest-lab](https://github.com/Mboatella25/metasploitable-pentest-lab)
+- [ronankongala/metasploit-pentest-report](https://github.com/ronankongala/metasploit-pentest-report)
 
 ### CVE-2007-3280 (2007-06-19)
 
